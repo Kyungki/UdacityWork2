@@ -19,7 +19,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <meta charset="utf-8">
 
   <!-- Tells the browser what the title of this page should be. -->
-  <title>Kyungki Kim's Resume</title>
+  <title>Ellie Kim's Resume</title>
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
@@ -88,7 +88,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="js/resumeBuilder.js"></script>
+  <script src="js/resumeBuilderEllie.js"></script>
 
 
   <!--
@@ -137,7 +137,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('mapDiv').style.display = 'none';
     }
     */
-    
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
   </script>
 </body>
 </html>

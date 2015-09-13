@@ -145,6 +145,14 @@ a {
   padding: 2.5% 5%;
 }
 
+#header {
+    background-image:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4BMO-otKnt9kOgWZVP-S7m6sogGyBUrgN37a5vn4W4C__0AVNEw");
+    background-size: 100% 100%
+    
+    position: absolute;
+    
+}
+
 ul {
   list-style-type: none;
 }
