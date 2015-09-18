@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!--
+This is an HTML document. It contains information about how elements in the website
+are arranged. In other words, it describes the layout of a website.
+
+I can't wait to see the resumes you put together!
+
+Cameron Pittman, Udacity Course Developer
+-->
+
+<!--
+The <head> of a website generally links to important resources the page will
+need to load. You'll see a lot of <link>s to CSS files for styles and
+<scripts> for JavaScript files to build interactions.
+-->
+<html lang="en">
+  <!-- This tells the browser how to read the document. -->
+  <meta charset="utf-8">
+
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Kyungki Kim's Resume</title>
+
+  <!--CSS-->
+  <link href="css/icons.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/style-new.css" rel="stylesheet" type="text/css" />
+  <!--JS-->
+  <script src="js/jQuery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/helper.js"></script>
+  <!-- Chart.js -->
+  <script src="js/Chart.js"></script>
+  <script type="text/javascript" src="js/d3.min.js"></script>
+  <script type="text/javascript" src="js/radialProgress.js"></script>
+  <!--Google Maps-->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> 
+  <!--<meta name="viewport" content="width=device-width">-->
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="header" class="header-info"> </div>
+      </div>
+      <div class="col-md-6">
+      </div>
+  </div>
+
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <h2 class="text-left"><span class="glyphicon glyphicon-wrench"></span>SKILLS</h2>
+        <div id ="skills-list">
+        </div>
+
+        <div id="skills-chart-holder" class="text-center skills-chart-holder">
+          <canvas id="skills-chart" width="300" height="300"></canvas>         
+        </div>
+        <div id="education">
+          <h2><span class="glyphicon glyphicon-book"></span>EDUCATION</h2>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div id="workExperience">
+          <h2><span class="glyphicon glyphicon-briefcase"></span>WORK EXPERIENCE</h2>
+        </div>
+      </div>
+
+    </div> 
+
+
+    <div class="row">
+      <div class="col-md-12">
+          <!--Project Info: list of projects and progress chart-->
+        <div id="projects">
+            <h2><span class="glyphicon glyphicon-file"></span>PROJECTS</h2>
+        </div>
+      </div>
+    </div>
+
+
+       
+  </div>
+
+  
+  <script src="js/resumeBuilder.js"></script>
+
+
+  
+
+  
+</body>
+</html>
