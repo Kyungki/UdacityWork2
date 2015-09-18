@@ -44,10 +44,14 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 <body>
   <div class="container">
     <div class="row">
+      <div id="header_name" class="header-info"> </div>
+    </div>
+    <div class="row">
       <div class="col-md-6">
         <div id="header" class="header-info"> </div>
       </div>
       <div class="col-md-6">
+        <ul id="topContacts" class="flex-box"></ul>
       </div>
   </div>
 
@@ -55,13 +59,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     <div class="row">
 
       <div class="col-md-6">
-        <h2 class="text-left"><span class="glyphicon glyphicon-wrench"></span>SKILLS</h2>
-        <div id ="skills-list">
-        </div>
-
-        <div id="skills-chart-holder" class="text-center skills-chart-holder">
-          <canvas id="skills-chart" width="300" height="300"></canvas>         
-        </div>
         <div id="education">
           <h2><span class="glyphicon glyphicon-book"></span>EDUCATION</h2>
         </div>
@@ -70,6 +67,13 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       <div class="col-md-6">
         <div id="workExperience">
           <h2><span class="glyphicon glyphicon-briefcase"></span>WORK EXPERIENCE</h2>
+        </div>
+        <h2 class="text-left"><span class="glyphicon glyphicon-wrench"></span>SKILLS</h2>
+        <div id ="skills-list">
+        </div>
+
+        <div id="skills-chart-holder" class="text-center skills-chart-holder">
+          <canvas id="skills-chart" width="300" height="300"></canvas>         
         </div>
       </div>
 
@@ -85,12 +89,17 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       </div>
     </div>
 
-
+    <div id="lets-connect" class="dark-gray">
+      <h2 class="orange center-text">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+  </div>
        
   </div>
 
   
-  <script src="js/resumeBuilder.js"></script>
+  <script src="js/resumeBuilderKK1.js"></script>
 
 
   
